@@ -84,7 +84,6 @@ export const CERTIFICATIONS = [
 ]
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Vellore Institute of Technology, Chennai ",
+  email: "hunterxyx16@gmail.com",
 };
