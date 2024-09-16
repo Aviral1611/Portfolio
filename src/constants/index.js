@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import cert1 from "../assets/certifications/cert1.png"
+import cert2 from "../assets/certifications/cert2.png"
+import cert3 from "../assets/certifications/cert3.png"
 
 export const HERO_CONTENT = `I'm a passionate Full stack Developer and Data Scientist. Currently in the final year of my degree in Computer Science and Engineering from VIT Chennai. I enjoy making personal projects, sports related projects and cool websites. I love working with data and want to explore and learn more about Machine learning and AI.`;
 
@@ -9,65 +12,76 @@ export const ABOUT_TEXT = `I am a Computer Science and Engineering student at Ve
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Research Project",
+    company: "VIT Chennai",
+    description: `Working on a research paper to evalaute the credit risk assessment of various companies and individuals using various ML models and technologies to find out which gives higher accuracy.`,
+    technologies: ["Python", "Machine Learning", "Keras", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 - 2024",
+    role: "Software Developer Intern",
+    company: "Voiceback Analytics LTD.",
+    description: `As a Software Developer Intern at Voiceback Analytics, I developed AI-powered chat functionality for enterprise systems using OpenAI and Azure, enhancing the user interface and experience. I streamlined data retrieval processes with Langchain and SQL, and customized chatbot frontend designs with React and Bootstrap to align with client branding, significantly improving customer satisfaction.`,
+    technologies: ["React", "NodeJs", "OpenAI", "Azure"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2022 - 2024",
+    role: "Core Management Member",
+    company: "Finance and Management Club",
+    description: `Spearheaded cross-departmental initiatives that enhanced operational efficiency by 15% through strategic project management, resource allocation, and the implementation of data-driven decision-making frameworks.`,
+    technologies: ["Finance", "Event management", "Business"]
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Gym Management System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional Gym management System with a frontend for users to check out the gym and buy plans and a CRUD for the Admin..",
+    technologies: ["HTML", "CSS", "JavaScript", "Django", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Movie Recommender System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A  movie recommender system whuich takes in the user input and suggests the Top-5 similar movies to the input.",
+    technologies: ["Python", "Numpy", "Machine Learning", "Streamlit"],
   },
   {
-    title: "Portfolio Website",
+    title: "VIT-Question-Papers",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A website for students to view and download old exam papers of the VIT exams. Currently deployed on Vercel.",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
 ];
+
+export const CERTIFICATIONS = [
+  {
+    title: "Certificate of Excellence - Data Analytics and Machine Learning",
+    image: cert1,
+    description: "Gained a strong foundation in data analytics, including data preprocessing, exploratory data analysis, and feature engineering.",
+    date: "2024",
+    technologies: ["Data Science", "Data analytics", "Machine Learning"],
+  },
+  {
+    title: "Elements of AI",
+    image: cert2,
+    description: "Gained insights into the working of Artificial Intelligence.",
+    date: "2023",
+    technologies: ["Artificial Intelligence", "Problem Solving", "DSA"],
+  },
+  {
+    title: "Fundamentals Of Reinforcement Learning",
+    image: cert3,
+    description: "Gained a deep understanding of reinforcement learning principles and applications through this comprehensive program.",
+    date: "2023",
+    technologies: ["Machine Learning", "Reinforcement Learning", "Python"],
+  }
+
+]
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
