@@ -6,7 +6,7 @@ import cert1 from "../assets/certifications/cert1.png"
 import cert2 from "../assets/certifications/cert2.png"
 import cert3 from "../assets/certifications/cert3.png"
 
-export const HERO_CONTENT = `I'm a passionate Full stack Developer and Data Scientist. Currently in the final year of my degree in Computer Science and Engineering from VIT Chennai. I enjoy making personal projects, sports related projects and cool websites. I love working with data and want to explore and learn more about Machine learning and AI.`;
+export const HERO_CONTENT = `I'm a passionate Full stack Developer and Data Scientist. I enjoy making personal projects, sports related projects and cool websites. I love working with data and want to explore and learn more about Machine learning and AI.`;
 
 export const ABOUT_TEXT = `I am a Computer Science and Engineering student at Vellore Institute of Technology, Chennai, with a strong academic record and hands-on experience in software development. I have worked as a Software Developer Intern at Voiceback Analytics, where he integrated AI-powered chat functionality and improved data retrieval processes. I have developed projects like image encryption using chaos mapping and a business scraper with 99% accuracy. My technical skills span Python, JavaScript, React, and MongoDB, while also being proficient in cloud platforms like Azure and Google Cloud. I am passionate about web development, data analytics, and machine learning.`;
 
